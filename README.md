@@ -5,13 +5,13 @@ This repository contains my learning progress and projects while following the *
 ## 📚 Course Projects
 The course includes a variety of projects designed to teach React concepts step by step. Below is the list of projects covered in the course:
 
-1. **Pizza Menu**  
+1. [**Pizza Menu**](https://pizza-menu.handicca.my.id/)
    - Concepts: Components, props, JSX  
 
-2. **Travel List**  
+2. [**Travel List**](https://travel-list.handicca.my.id/)
    - Concepts: `useState`, state management  
 
-3. **Eat-n-Split**  
+3. [**Eat-n-Split**](https://eat-n-split.handicca.my.id/)  
    - Practice Project  
 
 4. **usePopcorn**  
