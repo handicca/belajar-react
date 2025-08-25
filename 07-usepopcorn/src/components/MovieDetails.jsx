@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import { useState, useEffect, useRef } from "react";
 import StarRating from "./StarRating";
-import { useKey } from "./useKey";
+import { useKey } from "../useKey";
 
 export function MovieDetails({ movieId, onCloseMovie, onAddWatched, watched }) {
   const [movie, setMovie] = useState({});
@@ -96,7 +96,7 @@ export function MovieDetails({ movieId, onCloseMovie, onAddWatched, watched }) {
             <button className="btn-back" onClick={onCloseMovie}>
               &larr;
             </button>
-            <img src={poster} alt={`Poster of ${movie} movie`} />
+            <img src={poster} alt={`Poster of ${title} movie`} />
             <div className="details-overview">
               <h2>{title}</h2>
               <p>
